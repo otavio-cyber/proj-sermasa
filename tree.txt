@@ -1,0 +1,146 @@
+.
+├── app
+│   ├── contato
+│   │   └── page.tsx
+│   ├── ecaas
+│   │   └── page.tsx
+│   ├── eletrocentro
+│   │   └── page.tsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── produtos
+│   │   └── page.tsx
+│   ├── quem-somos
+│   │   └── page.tsx
+│   └── servicos
+│       └── page.tsx
+├── components
+│   ├── contato
+│   │   ├── ContactForm.tsx
+│   │   └── ContactInfo.tsx
+│   ├── eletrocentro
+│   │   ├── Advantages.tsx
+│   │   ├── Applications.tsx
+│   │   ├── Definition.tsx
+│   │   ├── Gallery.tsx
+│   │   └── Scenarios.tsx
+│   ├── home
+│   │   ├── Differentials.tsx
+│   │   ├── Hero.tsx
+│   │   ├── IsoHighlight.tsx
+│   │   └── NavigationCards.tsx
+│   ├── institucional
+│   │   ├── Certifications.tsx
+│   │   ├── Intro.tsx
+│   │   ├── MissionVisionValues.tsx
+│   │   ├── QualityPolicy.tsx
+│   │   └── StrategicGuidelines.tsx
+│   ├── layout
+│   │   ├── Footer.tsx
+│   │   └── Header.tsx
+│   ├── produtos
+│   │   └── ProductsGrid.tsx
+│   ├── servicos
+│   │   └── ServicesGrid.tsx
+│   ├── theme-provider.tsx
+│   └── ui
+│       ├── accordion.tsx
+│       ├── alert-dialog.tsx
+│       ├── alert.tsx
+│       ├── aspect-ratio.tsx
+│       ├── avatar.tsx
+│       ├── badge.tsx
+│       ├── breadcrumb.tsx
+│       ├── button-group.tsx
+│       ├── button.tsx
+│       ├── calendar.tsx
+│       ├── card.tsx
+│       ├── carousel.tsx
+│       ├── chart.tsx
+│       ├── checkbox.tsx
+│       ├── collapsible.tsx
+│       ├── command.tsx
+│       ├── context-menu.tsx
+│       ├── dialog.tsx
+│       ├── drawer.tsx
+│       ├── dropdown-menu.tsx
+│       ├── empty.tsx
+│       ├── field.tsx
+│       ├── form.tsx
+│       ├── hover-card.tsx
+│       ├── input-group.tsx
+│       ├── input-otp.tsx
+│       ├── input.tsx
+│       ├── item.tsx
+│       ├── kbd.tsx
+│       ├── label.tsx
+│       ├── menubar.tsx
+│       ├── navigation-menu.tsx
+│       ├── pagination.tsx
+│       ├── popover.tsx
+│       ├── progress.tsx
+│       ├── radio-group.tsx
+│       ├── resizable.tsx
+│       ├── scroll-area.tsx
+│       ├── select.tsx
+│       ├── separator.tsx
+│       ├── sheet.tsx
+│       ├── sidebar.tsx
+│       ├── skeleton.tsx
+│       ├── slider.tsx
+│       ├── sonner.tsx
+│       ├── spinner.tsx
+│       ├── switch.tsx
+│       ├── table.tsx
+│       ├── tabs.tsx
+│       ├── textarea.tsx
+│       ├── toaster.tsx
+│       ├── toast.tsx
+│       ├── toggle-group.tsx
+│       ├── toggle.tsx
+│       ├── tooltip.tsx
+│       ├── use-mobile.tsx
+│       └── use-toast.ts
+├── components.json
+├── hooks
+│   ├── use-mobile.ts
+│   └── use-toast.ts
+├── lib
+│   └── utils.ts
+├── next.config.mjs
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.mjs
+├── public
+│   ├── apple-icon.png
+│   ├── electrical-engineer-working-on-industrial-control-.jpg
+│   ├── electrical-switchgear-inside-modular-container.jpg
+│   ├── electrical-transformer-and-distribution-panel.jpg
+│   ├── icon-dark-32x32.png
+│   ├── icon-light-32x32.png
+│   ├── icon.svg
+│   ├── industrial-automation-factory-floor-with-electrica.jpg
+│   ├── industrial-electrical-panels-and-switchgear.jpg
+│   ├── industrial-equipment-as-a-service-concept.jpg
+│   ├── industrial-facility-aerial-view.jpg
+│   ├── iso-9001-certification-badge.jpg
+│   ├── iso-9001-quality-certificate-on-industrial-backgro.jpg
+│   ├── modern-industrial-building-exterior.jpg
+│   ├── modular-electrical-substation-container.jpg
+│   ├── modular-electrical-substation-container-outdoor.jpg
+│   ├── modular-electrical-substation-exterior-view.jpg
+│   ├── modular-substation-installation-site.jpg
+│   ├── placeholder.jpg
+│   ├── placeholder-logo.png
+│   ├── placeholder-logo.svg
+│   ├── placeholder.svg
+│   ├── placeholder-user.jpg
+│   ├── quality-certification-documents-and-industrial-saf.jpg
+│   └── taf-sermasa-logo.svg
+├── styles
+│   └── globals.css
+├── tree.txt
+└── tsconfig.json
+
+21 directories, 123 files
