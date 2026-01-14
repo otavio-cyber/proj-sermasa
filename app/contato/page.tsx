@@ -11,7 +11,7 @@ export default function ContatoPage() {
     <>
       <section className="relative overflow-hidden bg-secondary py-24">
         <div className="relative mx-auto max-w-4xl px-6 text-center lg:px-8">
-          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">em Contato</h1>
+          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">Entre em Contato</h1>
           <p className="mt-6 text-lg leading-relaxed text-white/90">
             Fale com nossos especialistas e descubra a melhor solução para seu projeto
           </p>
