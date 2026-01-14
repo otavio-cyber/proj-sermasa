@@ -70,7 +70,7 @@ export default function Header() {
             <div className="flex items-center justify-between">
               <Link href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">TAF-SERMASA</span>
-                <Image src="/taf-sermasa-logo.svg" alt="TAF-SERMASA" width={180} height={24} className="h-7 w-auto" />
+                <Image src="public/sermasataf.png" alt="TAF-SERMASA" width={180} height={24} className="h-7 w-auto" />
               </Link>
               <button
                 type="button"
