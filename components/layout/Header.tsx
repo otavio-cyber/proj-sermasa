@@ -26,7 +26,7 @@ export default function Header() {
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">TAF-SERMASA</span>
             <Image
-              src="public/Sermasa-TAF.svg"
+              src="/Sermasa-TAF.svg"
               alt="TAF-SERMASA"
               width={180}
               height={24}
