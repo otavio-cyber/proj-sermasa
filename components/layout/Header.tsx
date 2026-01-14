@@ -22,19 +22,11 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8" aria-label="Global">
-        <div className="flex lg:flex-1">
-          <Link href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">TAF-SERMASA</span>
-            <Image
-              src="public/sermasataf.png"
-              alt="TAF-SERMASA"
-              width={180}
-              height={24}
-              className="h-7 w-auto"
-              priority
-            />
-          </Link>
-        </div>
+        <div className="lg:col-span-1">
+                    <Image src="public/sermasataf.png" alt="TAF-SERMASA" width={180} height={24} className="h-8 w-auto" />git add .
+git commit -m "teste2"
+git push origin main
+                  </div>
         <div className="flex lg:hidden">
           <button
             type="button"
