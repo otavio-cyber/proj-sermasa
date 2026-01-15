@@ -2,6 +2,7 @@ import { DollarSign, TrendingUp, Wrench, Clock } from "lucide-react"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import FloatingEletrocentroButton from "@/components/ecaas/FloatingEletrocentroButton"
 
 export const metadata = {
   title: "ECaaS - Eletrocentro como Serviço | TAF-SERMASA",
@@ -11,6 +12,10 @@ export const metadata = {
 export default function EcaasPage() {
   return (
     <>
+      {/* Botão flutuante de retorno */}
+      <FloatingEletrocentroButton />
+
+      {/* Hero */}
       <section className="relative overflow-hidden bg-secondary py-24">
         <div className="absolute inset-0">
           <img
@@ -24,16 +29,19 @@ export default function EcaasPage() {
             ECaaS - Eletrocentro como Serviço
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-white/90">
-            Infraestrutura elétrica modular sem investimento inicial. Você paga apenas pelo uso, com manutenção e
-            suporte inclusos.
+            Infraestrutura elétrica modular sem investimento inicial. Você paga apenas pelo uso,
+            com manutenção e suporte inclusos.
           </p>
         </div>
       </section>
 
+      {/* Como funciona */}
       <section className="py-16 lg:py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">Como Funciona</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+              Como Funciona
+            </h2>
           </div>
 
           <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
@@ -42,7 +50,7 @@ export default function EcaasPage() {
                 <DollarSign className="h-7 w-7 text-primary" />
               </div>
               <h3 className="mt-4 text-lg font-semibold text-foreground">Sem CAPEX</h3>
-              <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
                 Zero investimento inicial em equipamentos
               </p>
             </Card>
@@ -51,16 +59,22 @@ export default function EcaasPage() {
               <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-lg bg-primary/10">
                 <Clock className="h-7 w-7 text-primary" />
               </div>
-              <h3 className="mt-4 text-lg font-semibold text-foreground">Instalação Rápida</h3>
-              <p className="mt-2 text-sm text-muted-foreground leading-relaxed">Implantação em até 15 dias</p>
+              <h3 className="mt-4 text-lg font-semibold text-foreground">
+                Instalação Rápida
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                Implantação em até 15 dias
+              </p>
             </Card>
 
             <Card className="p-6 text-center">
               <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-lg bg-primary/10">
                 <Wrench className="h-7 w-7 text-primary" />
               </div>
-              <h3 className="mt-4 text-lg font-semibold text-foreground">Manutenção Inclusa</h3>
-              <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
+              <h3 className="mt-4 text-lg font-semibold text-foreground">
+                Manutenção Inclusa
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
                 Suporte técnico e manutenção preventiva
               </p>
             </Card>
@@ -69,21 +83,31 @@ export default function EcaasPage() {
               <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-lg bg-primary/10">
                 <TrendingUp className="h-7 w-7 text-primary" />
               </div>
-              <h3 className="mt-4 text-lg font-semibold text-foreground">Flexibilidade</h3>
-              <p className="mt-2 text-sm text-muted-foreground leading-relaxed">Contratos adaptáveis ao seu projeto</p>
+              <h3 className="mt-4 text-lg font-semibold text-foreground">
+                Flexibilidade
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                Contratos adaptáveis ao seu projeto
+              </p>
             </Card>
           </div>
         </div>
       </section>
 
+      {/* CAPEX vs Serviço */}
       <section className="bg-muted/30 py-16 lg:py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 items-center">
+          <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
             <div>
-              <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">CAPEX vs. Serviço</h2>
+              <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+                CAPEX vs. Serviço
+              </h2>
+
               <div className="mt-8 space-y-6">
                 <div className="rounded-lg border border-destructive/20 bg-destructive/5 p-6">
-                  <h3 className="font-semibold text-foreground">Modelo Tradicional (CAPEX)</h3>
+                  <h3 className="font-semibold text-foreground">
+                    Modelo Tradicional (CAPEX)
+                  </h3>
                   <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
                     <li>• Alto investimento inicial</li>
                     <li>• Depreciação do ativo</li>
@@ -91,8 +115,11 @@ export default function EcaasPage() {
                     <li>• Baixa flexibilidade</li>
                   </ul>
                 </div>
+
                 <div className="rounded-lg border border-primary/20 bg-primary/5 p-6">
-                  <h3 className="font-semibold text-foreground">ECaaS (Serviço)</h3>
+                  <h3 className="font-semibold text-foreground">
+                    ECaaS (Serviço)
+                  </h3>
                   <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
                     <li>✓ Pagamento mensal previsível</li>
                     <li>✓ Sem depreciação</li>

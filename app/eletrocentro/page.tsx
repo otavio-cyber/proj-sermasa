@@ -3,6 +3,7 @@ import Applications from "@/components/eletrocentro/Applications"
 import Advantages from "@/components/eletrocentro/Advantages"
 import Scenarios from "@/components/eletrocentro/Scenarios"
 import Gallery from "@/components/eletrocentro/Gallery"
+import FloatingECaaSButton from "@/components/eletrocentro/FloatingECaaSButton"
 
 export const metadata = {
   title: "Eletrocentro Modular | TAF-SERMASA",
@@ -12,6 +13,8 @@ export const metadata = {
 export default function EletrocentroPage() {
   return (
     <>
+      <FloatingECaaSButton />
+
       <Definition />
       <Applications />
       <Advantages />

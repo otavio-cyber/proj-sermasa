@@ -10,6 +10,7 @@ const navigation = [
   { name: "Início", href: "/" },
   { name: "Quem Somos", href: "/quem-somos" },
   { name: "Eletrocentro", href: "/eletrocentro" },
+  { name: "ECaaS", href: "/ecaas" },
   { name: "Serviços", href: "/servicos" },
   { name: "Produtos", href: "/produtos" },
   { name: "Contato", href: "/contato" },
@@ -24,17 +25,9 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">TAF-SERMASA</span>
-            <Image
-              src="/sermasataf.png"
-              alt="TAF-SERMASA"
-              width={180}
-              height={24}
-              className="h-7 w-auto"
-              priority
-            />
+            <Image src="/sermasataf.png" alt="TAF-SERMASA" width={180} height={24} className="h-7 w-auto" priority />
           </Link>
         </div>
-
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -45,7 +38,6 @@ export default function Header() {
             <Menu className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-
         <div className="hidden lg:flex lg:gap-x-8">
           {navigation.map((item) => (
             <Link
@@ -57,32 +49,21 @@ export default function Header() {
             </Link>
           ))}
         </div>
-
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Button asChild size="sm">
             <Link href="/contato">Fale com um Especialista</Link>
           </Button>
         </div>
       </nav>
-
       {/* Mobile menu */}
       {mobileMenuOpen && (
         <div className="lg:hidden" role="dialog" aria-modal="true">
-          <div
-            className="fixed inset-0 z-50"
-            onClick={() => setMobileMenuOpen(false)}
-          />
+          <div className="fixed inset-0 z-50" onClick={() => setMobileMenuOpen(false)} />
           <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-background px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-border/10">
             <div className="flex items-center justify-between">
               <Link href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">TAF-SERMASA</span>
-                <Image
-                  src="/sermasataf.png"
-                  alt="TAF-SERMASA"
-                  width={180}
-                  height={24}
-                  className="h-7 w-auto"
-                />
+                <Image src="/sermasataf.png" alt="TAF-SERMASA" width={180} height={24} className="h-7 w-auto" />
               </Link>
               <button
                 type="button"
@@ -93,7 +74,6 @@ export default function Header() {
                 <X className="h-6 w-6" aria-hidden="true" />
               </button>
             </div>
-
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-border/50">
                 <div className="space-y-2 py-6">
