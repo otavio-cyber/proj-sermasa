@@ -29,7 +29,7 @@ export default function Header() {
               alt="TAF-SERMASA"
               width={180}
               height={24}
-              className="h-7 w-auto"
+              className="h-10 w-auto"
               priority
             />
           </Link>

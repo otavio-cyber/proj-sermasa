@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
           {/* Logo e Slogan */}
           <div className="lg:col-span-1">
-            <Image src="public/sermasataf.png" alt="TAF-SERMASA" width={180} height={24} className="h-8 w-auto" />
+            <Image src="sermasataf.png" alt="TAF-SERMASA" width={180} height={24} className="h-8 w-auto" />
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
               Soluções Inteligentes em Automação e Elétrica Industrial
             </p>
